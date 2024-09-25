@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;    
+}
+
+body {
+    font-size: 22px;
+}
+
+.container {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.line-through {
+    position: relative;
+}
+
+.line-through::before {
+    content: "";
+    width: 140px;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    right: 0;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+}
+
+.line-through-after {
+    position: relative;
+}
+
+.line-through-after::after {
+    content: "";
+    width: 140px;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    right: 0;
+    margin: auto 0;
+    top: 0;
+    bottom: 0;
+}

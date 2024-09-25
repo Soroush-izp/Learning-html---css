@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Dana;
+}
+
+div {
+    background-color: #1976D2;
+    color: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 50px auto;
+    width: 40vw;
+}
+
+h1 {
+    margin-bottom: 12px;
+}
+
+p {
+    text-align-last: right;
+    text-align: justify;
+    padding-bottom: 14px;
+}
+
+ul {
+    margin-bottom: 14px;
+    list-style-image: url("icone.svg");
+    border: 1px solid #000;
+
+}
+
+a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.link:hover {
+    color: #43A047;
+}
+
+.link:active {
+    color: red;
+}
+
+h1:hover + p {
+    color: #43A047;
+}

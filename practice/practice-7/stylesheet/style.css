@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.img-gradient {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    background-image: linear-gradient(rgba(200, 0, 0, .7), rgba(0, 123, 200, .9)), 
+    url("../images/link-pictures.jpg");
+    background-size: cover;
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text {
+    font-size: 24px;
+    width: 600px;
+    background-color: aqua;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

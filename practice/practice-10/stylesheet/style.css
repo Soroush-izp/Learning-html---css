@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #388E3C;
+    margin: 60px auto;
+    transition: all 280ms ease-in 50ms;
+}
+
+.box:hover {
+    transform: rotate(56deg) scale(.6) skew(26deg) 
+    translate(150px, 80px);
+}

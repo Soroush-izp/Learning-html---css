@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "shabnam";
+    src: 
+    local("shabnam"), 
+    url("../fonts/Shabnam-FD.woff2") 
+    format("woff2");
+}
+
+body {
+    font-family: "shabnam";
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+}
+
+.section-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-sec-item {
+    text-decoration: none;
+}
+
+.flex-sec-item img {
+    vertical-align: middle;
+}
+
+.row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.flex-row-item {
+    max-width: 280px;
+    padding: 12px;
+    text-align: justify;
+    box-shadow: 1px 1px 12px #CFD8DC;
+}
+
+.flex-row-item img {
+    width: 220px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 23px;
+}
+
+.flex-row-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 15px ;
+    margin-bottom: 30px;
+}
+
+.flex-discount {
+    margin-top: 22px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: last baseline;
+}
+
+.del-price {
+    color: gray;
+    text-decoration: line-through;
+    font-size: .8em;
+}
+
+.discount {
+    color: #1565C0;
+    background-color: #E3F2FD;
+    font-size: .8em;
+    margin-left: 8px;
+    padding: 1.5px;
+}
+
+.flex-price-star {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+}
+
+.star {
+    font-size: .8em;
+    display: inline-block;
+    
+}
+
+.star img{
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
