@@ -1,0 +1,62 @@
+.footer {
+    grid-column: 1/ -1;
+    margin: 1rem 0;
+    border-top: 1px solid black;
+    background-color: whitesmoke;
+
+}
+
+.footer-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 7px;
+    padding: 35px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all .4s;
+}
+
+ul>li:hover:not(.footer-title) {
+    color: orange;
+}
+
+.telegram, 
+.whatsapp, 
+.youtube {
+    transition: all .4s;
+}
+
+.telegram:hover {
+    color: rgb(103, 200, 233);
+} 
+
+.whatsapp:hover {
+    color: rgb(94, 239, 94);
+}
+
+.youtube:hover {
+    color: red;
+}
+
+.footer-title, 
+.copy-text {
+    color: orange;
+}
+
+.copy {
+    margin-top: 1rem;
+    font-size: 12px;
+    text-align: center;
+}

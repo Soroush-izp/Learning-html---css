@@ -1,0 +1,40 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            width: 1000px;
+            margin: 2rem auto;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-rows: 150px 250px;
+            grid-template-columns: repeat(3, 1fr);
+            background-color: black;
+            /* align-items: end; */
+            /* align-items: default : stretch;  start , center , end */
+            /* justify-items: default : stretch;  start , center , end */
+            /* justify-items: end; */
+        }
+        
+        .items {
+            background-color: yellow;
+            border: 1px solid black;
+        }
+        
+        .item-1 {
+            background-color: salmon;
+            /* align-self: start */
+        }
+        
+        .item-2 {
+            background-color: yellowgreen;
+            /* justify-self: center; */
+        }
+        
+        .item-3 {
+            background-color: red;
+            /* justify-self: end; */
+            align-self: start;
+        }
